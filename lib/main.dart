@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:weather_app/weather_screen.dart';
+import 'splash_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,8 +17,11 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: ThemeData.dark(useMaterial3: true),
-      home: const WeatherScreen(),
+      title: 'Weather App',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+      home: SplashScreen(), // Set the SplashScreen as the home
     );
   }
 }

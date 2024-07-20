@@ -230,7 +230,7 @@ class _WeatherScreenState extends State<WeatherScreen> {
                           const SizedBox(height: 10),
                           const Center(
                             child: Text(
-                              "© 2024 Almagsoft Tech Solutions",
+                              "© 2024 Amalgsoft Tech Solutions",
                               style: TextStyle(
                                 fontSize: 24,
                                 fontWeight: FontWeight.bold,
