@@ -23,10 +23,12 @@ class _SearchWidgetState extends State<SearchWidget> {
     return Row(
       children: [
         Expanded(
-          child: TextField(
-            controller: _cityController,
-            decoration: const InputDecoration(
-              hintText: 'Enter city name',
+          child: Center(
+            child: TextField(
+              controller: _cityController,
+              decoration: const InputDecoration(
+                hintText: 'Enter city name',
+              ),
             ),
           ),
         ),
